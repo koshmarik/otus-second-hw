@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: otushw-config
+data:
+  AUTHOR_NAME: Koshenkova
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: otushw-secret
+type: Opaque
+data:
+  DB_URL: amRiYzpwb3N0Z3Jlc3FsOi8vMTAuOTguNjYuMjc6NTQzMi9vdHVzaHc=
+  DB_USERNAME: bXZrb3NoZW5rb3Zh
+  DB_PASSWORD: N251WTRubWtSVldHOTdRdw==
